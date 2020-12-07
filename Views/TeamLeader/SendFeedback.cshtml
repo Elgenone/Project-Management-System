@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "SendFeedback";
+}
+
+<h2>SendFeedback</h2>
+
+@using (Html.BeginForm("SendFeedback", "TeamLeader",FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Feedback</h4>
+        <hr />
+        <div class="form-group">
+            <label for="t1">Message</label>
+            <div class="form-group shadow-textarea">
+               <textarea  name="myMessage" class="form-control z-depth-1"  id="t1" rows="3" maxlength="50" placeholder="Leave Your Feedback Here Please"></textarea>
+               
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Send" class="btn btn-info" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index" ,null , new { @class = "btn btn-success" })
+</div>

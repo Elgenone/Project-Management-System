@@ -1,0 +1,93 @@
+﻿@model IEnumerable<ProjectsManagementSystem.Models.Users>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table table-bordered table-hover table-dark" style="text-wrap:none;" >
+    <tr>
+        <th></th>
+        <th>
+            @Html.DisplayNameFor(model => model.user_password)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.img)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.No_Of_Delievered_Projects)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Profits_For_Companies)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.expeirenceYears)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.phone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.job_Desc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Job_Title.title)
+        </th>
+        
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { userID = item.userID }, new { @class = "btn btn-warning" }) 
+                @Html.ActionLink("Details", "Details", new { userID = item.userID }, new { @class = "btn btn-success" }) 
+                @Html.ActionLink("Delete", "Delete", new { userID = item.userID }, new { @class = "btn btn-danger" })
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.user_password)
+            </td>
+            <td>
+                <img src="~/uploads/@Html.DisplayFor(modelItem => item.img )"
+                     class="thumbnail" style="width:70px; height:70px;" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.No_Of_Delievered_Projects)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Profits_For_Companies)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.expeirenceYears)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.phone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.email)
+            </td>
+           
+            <td>
+                @Html.DisplayFor(modelItem => item.job_Desc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Job_Title.title)
+            </td>
+        
+    </tr>
+    
+}
+
+</table>

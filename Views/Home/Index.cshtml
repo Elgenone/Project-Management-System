@@ -1,0 +1,23 @@
+﻿@model ProjectsManagementSystem.Models.Projects
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Home.cshtml";
+    var Projects = ViewBag.projects;
+  
+}
+
+<h2>Home Page</h2>
+
+<!--beginning of the form-->
+
+@Html.Partial("~/Views/Home/_CreateProject.cshtml")
+
+<!--end of the form-->
+
+<hr />
+<!--A list of unassigned projects-->
+
+@Html.Partial("~/Views/Home/_AdminRemoveOREdit.cshtml")
+
+<!--The end of a list of unassigned projects-->

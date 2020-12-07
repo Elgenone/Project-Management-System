@@ -1,0 +1,99 @@
+﻿@model ProjectsManagementSystem.Models.Users
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Users</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.user_password)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.user_password)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.No_Of_Delievered_Projects)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.No_Of_Delievered_Projects)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Profits_For_Companies)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Profits_For_Companies)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.expeirenceYears)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.expeirenceYears)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.phone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.phone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.img)
+        </dt>
+
+        <dd>
+            <img src="~/uploads/@Html.DisplayFor(model => model.img )"
+                 class="thumbnail" style="width:70px; height:70px;" /> 
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.job_Desc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.job_Desc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Job_Title.title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Job_Title.title)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.userID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

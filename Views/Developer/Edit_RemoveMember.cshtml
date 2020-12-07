@@ -1,0 +1,43 @@
+﻿@model IEnumerable<ProjectsManagementSystem.Models.User_Projects>
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Remove</h2>
+
+<hr />
+
+<table class="table table-striped table-bordered table-hover">
+    <tr class="">
+        <th>
+            Memeber name
+        </th>
+        <th>
+            Memeber email
+        </th>
+
+    </tr>
+    @foreach (var item in Model)
+            {
+        <tr>
+            <td>
+
+                @item.Users.name
+            </td>
+            <td>
+                @item.Users.email
+            </td>
+            <td>
+                @Html.ActionLink("Confirm", "RemoveMember", new { projid = item.project_id }, new { @class = "btn btn-danger" })
+            </td>
+        </tr>
+    }
+
+</table>
+
+
+
+<div>
+    @Html.ActionLink("Back to Profile", "Index", null, new { @class = "btn btn-success" })
+</div>

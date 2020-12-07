@@ -1,0 +1,216 @@
+﻿@model IEnumerable<ProjectsManagementSystem.Models.User_Projects>
+
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var x = ViewBag.myActor[0];
+    var requests = ViewBag.requests;
+    var feedback = ViewBag.feedback;
+}
+
+
+<h2>Profile</h2>
+<!--chart -->
+<script>
+window.onload = function() {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	title: {
+		text: "Experience & Qualification"
+	},
+	data: [{
+		type: "pie",
+		startAngle: 240,
+		yValueFormatString: "",
+		indexLabel: "{label} {y}",
+		dataPoints: [
+			{y:@x.No_Of_Delievered_Projects,label: "Projects i worked on" },
+			{y:@x.Profits_For_Companies, label: "Profits For Companies $k" },
+			{y:@x.expeirenceYears, label: "Expeirence Years" },
+			{y: 20, label: "Highest Salary $k"},
+
+		]
+	}]
+});
+chart.render();
+
+}
+</script>
+
+<!--end of chart-->
+<!-- <table class="table table-striped table-bordered table-hover">
+        <tr>
+
+            <th>
+                Name
+            </th>
+            <th>
+                phone number
+            </th>
+            <th>
+               email
+            </th>
+            <th>
+                Photo
+            </th>
+            <th>
+               job Description
+            </th>
+            <th>
+               Job_Title
+            </th>
+        </tr>
+
+        <tr>
+
+            <td>
+                @x.name
+            </td>
+
+            <td>
+                @x.phone
+            </td>
+            <td>
+                @x.email
+            </td>
+            <td>
+                <img src="~/uploads/@x.img"
+                     class="thumbnail" style="width:150px; height:100px;" />
+            </td>
+            <td>
+                @x.job_Desc
+            </td>
+            <td>
+                @x.Job_Title.title
+            </td>
+        </tr>
+    </table>
+-->
+<div id="chartContainer" style="height: 370px; width: 100%;"></div>
+
+
+<!--end of personal info-->
+
+<h2>Projects</h2>
+
+<table class="table table-striped table-bordered table-hover">
+    <tr>
+
+        <th>
+            Project name
+        </th>
+        <th>
+            Description
+        </th>
+        <th>
+            State? (pending,approved)
+        </th>
+        <th>
+            Assigned? (True,False)
+        </th>
+        <th>
+            Delieverd? (True,False)
+        </th>
+
+    </tr>
+
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Projects.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Projects.jobDescr)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Projects.state)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Projects.assigned)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Projects.IsDelieverd)
+            </td>
+            <td>
+                @Html.ActionLink("Remove", "Edit_RemoveMember", new { id = item.Projects.projectID },new { @class = "btn btn-danger" })  |
+                @Html.ActionLink("Add", "EditMember", new { projid = item.Projects.projectID }, new { @class = "btn btn-success" })  |
+                @Html.ActionLink("Edit Project info", "Edit_Project", new { id = item.Projects.projectID }, new { @class = "btn btn-info" }) |
+
+            </td>
+
+
+        </tr>
+    }
+
+</table>
+
+<h2>Requests</h2>
+<table class="table table-striped table-bordered table-hover">
+    <tr>
+        <th>
+            Project name
+        </th>
+        <th>
+            Member name
+        </th>
+
+    </tr>
+
+    @foreach (var item in requests)
+    {
+        <tr>
+            <td>
+
+                @item.Projects.name
+            </td>
+
+            <td>
+
+                @item.Users2.name
+            </td>
+
+            <td>
+                @Html.ActionLink("Accept", "RequestToPM", new { accept = 1, requestid = item.requestID, projid = item.project_id ,memid=item.sender_id },new { @class = "btn btn-success" }) |
+                @Html.ActionLink("Reject", "RequestToPM", new { accept = 0, requestid = item.requestID, projid = item.project_id , memid = item.sender_id },new { @class = "btn btn-danger" })
+            </td>
+
+
+        </tr>
+    }
+
+</table>
+
+<h2>feedback</h2>
+<table class="table table-striped table-bordered table-hover">
+    <tr>
+        <th>
+            feedback Message
+        </th>
+        <th>
+            Teamleader name
+        </th>
+
+    </tr>
+
+    @foreach (var item in feedback)
+    {
+        <tr>
+            <td>
+
+                @item.feedbackMessage
+            </td>
+
+            <td>
+
+                @item.Users1.name
+            </td>
+
+
+        </tr>
+    }
+
+</table>

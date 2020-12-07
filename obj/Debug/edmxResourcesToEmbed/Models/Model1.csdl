@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PROJECT_MANAGEMENTModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Feedback">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="feedbackMessage" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="TL_id" Type="Int32" />
+    <Property Name="PM_id" Type="Int32" />
+    <Property Name="MessageIsRead" Type="Boolean" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__Feedback__PM_id__74AE54BC" FromRole="Feedback" ToRole="Users" />
+    <NavigationProperty Name="Users1" Relationship="Self.FK__Feedback__TL_id__75A278F5" FromRole="Feedback" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Job_Title">
+    <Key>
+      <PropertyRef Name="jobID" />
+    </Key>
+    <Property Name="jobID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__Users__job_id__73BA3083" FromRole="Job_Title" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Projects">
+    <Key>
+      <PropertyRef Name="projectID" />
+    </Key>
+    <Property Name="projectID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="state" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="jobDescr" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="assigned" Type="Boolean" />
+    <Property Name="IsDelieverd" Type="Boolean" />
+    <Property Name="StartDate" Type="DateTime" Precision="0" />
+    <Property Name="Deadline" Type="DateTime" Precision="0" />
+    <Property Name="Price" Type="Int32" />
+    <Property Name="Comments" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Request" Relationship="Self.FK__Request__project__5DCAEF64" FromRole="Projects" ToRole="Request" />
+    <NavigationProperty Name="User_Projects" Relationship="Self.FK__User_Proj__proje__5EBF139D" FromRole="Projects" ToRole="User_Projects" />
+  </EntityType>
+  <EntityType Name="Request">
+    <Key>
+      <PropertyRef Name="requestID" />
+    </Key>
+    <Property Name="requestID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sender_id" Type="Int32" />
+    <Property Name="reciever_id" Type="Int32" />
+    <Property Name="concernedUserID" Type="Int32" />
+    <Property Name="project_id" Type="Int32" />
+    <Property Name="isApproved" Type="Boolean" />
+    <Property Name="Request_Status" Type="Boolean" />
+    <NavigationProperty Name="Projects" Relationship="Self.FK__Request__project__5DCAEF64" FromRole="Request" ToRole="Projects" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__Request__concern__6FE99F9F" FromRole="Request" ToRole="Users" />
+    <NavigationProperty Name="Users1" Relationship="Self.FK__Request__recieve__70DDC3D8" FromRole="Request" ToRole="Users" />
+    <NavigationProperty Name="Users2" Relationship="Self.FK__Request__sender___71D1E811" FromRole="Request" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="User_Projects">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="project_id" Type="Int32" />
+    <Property Name="myUser_id" Type="Int32" />
+    <Property Name="rating" Type="Int32" />
+    <NavigationProperty Name="Projects" Relationship="Self.FK__User_Proj__proje__5EBF139D" FromRole="User_Projects" ToRole="Projects" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__User_Proj__myUse__72C60C4A" FromRole="User_Projects" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="userID" />
+    </Key>
+    <Property Name="userID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="user_password" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="No_Of_Delievered_Projects" Type="Int32" />
+    <Property Name="Profits_For_Companies" Type="Int32" />
+    <Property Name="expeirenceYears" Type="Int32" />
+    <Property Name="phone" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="email" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="img" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="job_Desc" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="job_id" Type="Int32" />
+    <NavigationProperty Name="Feedback" Relationship="Self.FK__Feedback__PM_id__74AE54BC" FromRole="Users" ToRole="Feedback" />
+    <NavigationProperty Name="Feedback1" Relationship="Self.FK__Feedback__TL_id__75A278F5" FromRole="Users" ToRole="Feedback" />
+    <NavigationProperty Name="Job_Title" Relationship="Self.FK__Users__job_id__73BA3083" FromRole="Users" ToRole="Job_Title" />
+    <NavigationProperty Name="Request" Relationship="Self.FK__Request__concern__6FE99F9F" FromRole="Users" ToRole="Request" />
+    <NavigationProperty Name="Request1" Relationship="Self.FK__Request__recieve__70DDC3D8" FromRole="Users" ToRole="Request" />
+    <NavigationProperty Name="Request2" Relationship="Self.FK__Request__sender___71D1E811" FromRole="Users" ToRole="Request" />
+    <NavigationProperty Name="User_Projects" Relationship="Self.FK__User_Proj__myUse__72C60C4A" FromRole="Users" ToRole="User_Projects" />
+  </EntityType>
+  <Association Name="FK__Feedback__PM_id__74AE54BC">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Feedback" Type="Self.Feedback" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="userID" />
+      </Principal>
+      <Dependent Role="Feedback">
+        <PropertyRef Name="PM_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Feedback__TL_id__75A278F5">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Feedback" Type="Self.Feedback" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="userID" />
+      </Principal>
+      <Dependent Role="Feedback">
+        <PropertyRef Name="TL_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Users__job_id__73BA3083">
+    <End Role="Job_Title" Type="Self.Job_Title" Multiplicity="0..1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Job_Title">
+        <PropertyRef Name="jobID" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="job_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Request__project__5DCAEF64">
+    <End Role="Projects" Type="Self.Projects" Multiplicity="0..1" />
+    <End Role="Request" Type="Self.Request" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Projects">
+        <PropertyRef Name="projectID" />
+      </Principal>
+      <Dependent Role="Request">
+        <PropertyRef Name="project_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__User_Proj__proje__5EBF139D">
+    <End Role="Projects" Type="Self.Projects" Multiplicity="0..1" />
+    <End Role="User_Projects" Type="Self.User_Projects" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Projects">
+        <PropertyRef Name="projectID" />
+      </Principal>
+      <Dependent Role="User_Projects">
+        <PropertyRef Name="project_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Request__concern__6FE99F9F">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Request" Type="Self.Request" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="userID" />
+      </Principal>
+      <Dependent Role="Request">
+        <PropertyRef Name="concernedUserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Request__recieve__70DDC3D8">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Request" Type="Self.Request" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="userID" />
+      </Principal>
+      <Dependent Role="Request">
+        <PropertyRef Name="reciever_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Request__sender___71D1E811">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Request" Type="Self.Request" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="userID" />
+      </Principal>
+      <Dependent Role="Request">
+        <PropertyRef Name="sender_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__User_Proj__myUse__72C60C4A">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="User_Projects" Type="Self.User_Projects" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="userID" />
+      </Principal>
+      <Dependent Role="User_Projects">
+        <PropertyRef Name="myUser_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PROJECT_MANAGEMENTEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Feedback" EntityType="Self.Feedback" />
+    <EntitySet Name="Job_Title" EntityType="Self.Job_Title" />
+    <EntitySet Name="Projects" EntityType="Self.Projects" />
+    <EntitySet Name="Request" EntityType="Self.Request" />
+    <EntitySet Name="User_Projects" EntityType="Self.User_Projects" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <AssociationSet Name="FK__Feedback__PM_id__74AE54BC" Association="Self.FK__Feedback__PM_id__74AE54BC">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Feedback" EntitySet="Feedback" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Feedback__TL_id__75A278F5" Association="Self.FK__Feedback__TL_id__75A278F5">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Feedback" EntitySet="Feedback" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Users__job_id__73BA3083" Association="Self.FK__Users__job_id__73BA3083">
+      <End Role="Job_Title" EntitySet="Job_Title" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Request__project__5DCAEF64" Association="Self.FK__Request__project__5DCAEF64">
+      <End Role="Projects" EntitySet="Projects" />
+      <End Role="Request" EntitySet="Request" />
+    </AssociationSet>
+    <AssociationSet Name="FK__User_Proj__proje__5EBF139D" Association="Self.FK__User_Proj__proje__5EBF139D">
+      <End Role="Projects" EntitySet="Projects" />
+      <End Role="User_Projects" EntitySet="User_Projects" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Request__concern__6FE99F9F" Association="Self.FK__Request__concern__6FE99F9F">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Request" EntitySet="Request" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Request__recieve__70DDC3D8" Association="Self.FK__Request__recieve__70DDC3D8">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Request" EntitySet="Request" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Request__sender___71D1E811" Association="Self.FK__Request__sender___71D1E811">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Request" EntitySet="Request" />
+    </AssociationSet>
+    <AssociationSet Name="FK__User_Proj__myUse__72C60C4A" Association="Self.FK__User_Proj__myUse__72C60C4A">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="User_Projects" EntitySet="User_Projects" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

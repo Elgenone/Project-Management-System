@@ -1,0 +1,93 @@
+﻿@model IEnumerable<ProjectsManagementSystem.Models.User_Projects>
+
+@{
+    ViewBag.Title = "ShowPosts";
+    var requests = ViewBag.requests;
+
+}
+
+
+    <div class="row">
+
+        <p class="col-3" style=" margin-left:100px;">
+            @Html.ActionLink("Posts", "ShowPosts", "Admin" , new {@class = " btn btn-info " })
+        </p>
+        <p class="col-3">
+            @Html.ActionLink("Add User", "AddUser", "Admin", new { @class = " btn btn-success " })
+        </p>
+        <p class="col-3">
+            @Html.ActionLink("Users", "ShowUsers", "Admin", new { @class = " btn btn-info " })
+        </p>
+
+    </div>
+
+    <h2>Posts</h2>
+
+
+    
+
+
+@foreach (var item in Model)
+{
+    <div style="background-color:ghostwhite;color:black;margin: auto;width: 60%;border: 3px solid #73AD21;padding: 10px;font-size:20px;text-align:center">
+        <img src="~/Uploads/@Html.DisplayFor(modelItem => item.Users.img)" style="width:100px;height:100px;border-radius:100%" />
+        @Html.DisplayFor(modelItem => item.Users.name , new { htmlAttributes = new { @style = "font-size:23px;font-weight:bold;" } }) 
+        <p style="font-size:23px;font-weight:bold;">Project Name</p>
+        @Html.DisplayFor(modelItem => item.Projects.name)
+        <p style="font-size:23px;font-weight:bold;">Project Description</p>
+        @Html.DisplayFor(modelItem => item.Projects.jobDescr)
+        <p  style="font-size:23px;font-weight:bold;">Project state</p>
+        @Html.DisplayFor(modelItem => item.Projects.state)
+        <br /> <br />
+        @if (item.Projects.state == "pending")
+        {
+            @Html.ActionLink("Add Post To Home Page", "AcceptOrRejectPost", new { id = item.id, value = "accepted" }) <text>||</text>
+            @Html.ActionLink("Remove Post", "AcceptOrRejectPost", new { id = item.id, value = "rejected" }
+       ,new { onclick = "return confirm('Are you sure you want to delete project " + item.Projects.name + "?');" }) <text>||</text>
+            @Html.ActionLink("Edit Post", "EditPost", new { id = item.id })
+        }
+        else
+        {
+            @Html.ActionLink("Remove Post", "AcceptOrRejectPost", new { id = item.id, value = "rejected" }
+        , new { onclick = "return confirm('Are you sure you want to delete project " + item.Projects.name + "?');" }) <text>||</text>
+            @Html.ActionLink("Edit Post", "EditPost", new { id = item.id })
+        }
+
+
+    </div>
+    <br /><br />
+}
+<h2>Requests</h2>
+<table class="table table-striped table-bordered table-hover">
+    <tr>
+        <th>
+            Project name
+        </th>
+        <th>
+            Project Manager Name
+        </th>
+        <th></th>
+
+    </tr>
+
+    @foreach (var item in requests)
+    {
+        <tr>
+            <td>
+                @item.Projects.name
+            </td>
+
+            <td>
+                @item.Users2.name
+            </td>
+
+            <td>
+                @Html.ActionLink("Accept", "RequestFromPM", new { accept = 1, requestid = item.requestID, projid = item.project_id, PMID = item.sender_id }, new { @class = "btn btn-success" }) ||
+                @Html.ActionLink("Reject", "RequestFromPM", new { accept = 0, requestid = item.requestID, projid = item.project_id, PMID = item.sender_id }, new { @class = "btn btn-danger" })
+            </td>
+
+
+        </tr>
+    }
+
+</table>

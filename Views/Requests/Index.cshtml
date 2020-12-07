@@ -1,0 +1,63 @@
+﻿@model IEnumerable<ProjectsManagementSystem.Models.Request>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.isApproved)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Request_Status)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Projects.name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Users.user_password)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Users1.user_password)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Users2.user_password)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.isApproved)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Request_Status)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Projects.name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Users.user_password)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Users1.user_password)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Users2.user_password)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.requestID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.requestID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.requestID })
+        </td>
+    </tr>
+}
+
+</table>

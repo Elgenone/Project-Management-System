@@ -1,0 +1,300 @@
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\ApplicationInsights.config
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\csc.exe
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\vbc.exe
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\ProjectsManagementSystem.dll.config
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\ProjectsManagementSystem.dll
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\ProjectsManagementSystem.pdb
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\EntityFramework.dll
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.AI.Web.dll
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Razor.dll
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Webpages.dll
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Webpages.Razor.dll
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\EntityFramework.xml
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.AI.Web.xml
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Razor.xml
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Webpages.xml
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Webpages.Razor.xml
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\obj\Debug\ProjectsManagementSystem.dll
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\obj\Debug\ProjectsManagementSystem.pdb
+C:\Users\Mahmoud Atef\Downloads\ProjectsManagementSystem\ProjectsManagementSystem\obj\Debug\ProjectsManagementSystem.csprojResolveAssemblyReference.cache
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\ApplicationInsights.config
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\csc.exe
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\vbc.exe
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\VBCSCompiler.exe
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\ProjectsManagementSystem.dll.config
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\ProjectsManagementSystem.dll
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\ProjectsManagementSystem.pdb
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\EntityFramework.dll
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\EntityFramework.SqlServer.dll
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.AI.Web.dll
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.ApplicationInsights.dll
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Helpers.dll
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Mvc.dll
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Razor.dll
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Webpages.Deployment.dll
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Webpages.dll
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Webpages.Razor.dll
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\EntityFramework.xml
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\EntityFramework.SqlServer.xml
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.AI.Web.xml
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.ApplicationInsights.xml
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Razor.xml
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Webpages.xml
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Webpages.Deployment.xml
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Webpages.Razor.xml
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Helpers.xml
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Mvc.xml
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\obj\Debug\ProjectsManagementSystem.csprojResolveAssemblyReference.cache
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\obj\Debug\ProjectsManagementSystem.dll
+E:\FCIH\code\ASP.NET\ProjectsManagementSystem\ProjectsManagementSystem\obj\Debug\ProjectsManagementSystem.pdb
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\ApplicationInsights.config
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\csc.exe
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\vbc.exe
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\VBCSCompiler.exe
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\ProjectsManagementSystem.dll.config
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\ProjectsManagementSystem.dll
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\ProjectsManagementSystem.pdb
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\EntityFramework.dll
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\EntityFramework.SqlServer.dll
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.AI.Web.dll
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.ApplicationInsights.dll
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Helpers.dll
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Mvc.dll
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Razor.dll
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Webpages.Deployment.dll
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Webpages.dll
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Webpages.Razor.dll
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\EntityFramework.xml
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\EntityFramework.SqlServer.xml
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.AI.Web.xml
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.ApplicationInsights.xml
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Razor.xml
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Webpages.xml
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Webpages.Deployment.xml
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Webpages.Razor.xml
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Helpers.xml
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\bin\System.Web.Mvc.xml
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\obj\Debug\ProjectsManagementSystem.csprojResolveAssemblyReference.cache
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\obj\Debug\ProjectsManagementSystem.dll
+E:\FCIH\code\ProjectsManagementSystem\ProjectsManagementSystem\obj\Debug\ProjectsManagementSystem.pdb
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\ApplicationInsights.config
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\csc.exe
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\vbc.exe
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\ProjectsManagementSystem.dll.config
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\ProjectsManagementSystem.dll
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\ProjectsManagementSystem.pdb
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\EntityFramework.dll
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.AI.Web.dll
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Razor.dll
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Webpages.dll
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Webpages.Razor.dll
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\EntityFramework.xml
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.AI.Web.xml
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Razor.xml
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Webpages.xml
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Webpages.Razor.xml
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\obj\Debug\ProjectsManagementSystem.dll
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\obj\Debug\ProjectsManagementSystem.pdb
+C:\Users\Paradice\Downloads\ProjectsManagementSystem_a\ProjectsManagementSystem\obj\Debug\ProjectsManagementSystem.csprojResolveAssemblyReference.cache
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\ApplicationInsights.config
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\csc.exe
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\vbc.exe
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\VBCSCompiler.exe
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\ProjectsManagementSystem.dll.config
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\ProjectsManagementSystem.dll
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\ProjectsManagementSystem.pdb
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\EntityFramework.dll
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\EntityFramework.SqlServer.dll
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.AI.Web.dll
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.ApplicationInsights.dll
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Helpers.dll
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Mvc.dll
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Razor.dll
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Webpages.Deployment.dll
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Webpages.dll
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Webpages.Razor.dll
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\EntityFramework.xml
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\EntityFramework.SqlServer.xml
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.AI.Web.xml
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.ApplicationInsights.xml
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Razor.xml
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Webpages.xml
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Webpages.Deployment.xml
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Webpages.Razor.xml
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Helpers.xml
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Mvc.xml
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\obj\Debug\ProjectsManagementSystem.csprojResolveAssemblyReference.cache
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\obj\Debug\ProjectsManagementSystem.dll
+E:\FCIH\code\ProjectsManagementSystem_a\ProjectsManagementSystem\obj\Debug\ProjectsManagementSystem.pdb
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\ApplicationInsights.config
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\csc.exe
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\vbc.exe
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\VBCSCompiler.exe
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\ProjectsManagementSystem.dll.config
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\ProjectsManagementSystem.dll
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\ProjectsManagementSystem.pdb
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\EntityFramework.dll
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\EntityFramework.SqlServer.dll
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.AI.Web.dll
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.ApplicationInsights.dll
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Helpers.dll
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Mvc.dll
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Razor.dll
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Webpages.Deployment.dll
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Webpages.dll
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Webpages.Razor.dll
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\EntityFramework.xml
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\EntityFramework.SqlServer.xml
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.AI.Web.xml
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.ApplicationInsights.xml
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Razor.xml
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Webpages.xml
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Webpages.Deployment.xml
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Webpages.Razor.xml
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Helpers.xml
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\bin\System.Web.Mvc.xml
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\obj\Debug\ProjectsManagementSystem.csprojResolveAssemblyReference.cache
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\obj\Debug\ProjectsManagementSystem.dll
+F:\FCIH\code\ASP.NET\ProjectsManagementSystem_a\ProjectsManagementSystem\obj\Debug\ProjectsManagementSystem.pdb

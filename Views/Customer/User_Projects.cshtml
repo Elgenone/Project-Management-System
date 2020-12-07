@@ -1,0 +1,132 @@
+﻿@model IEnumerable<ProjectsManagementSystem.Models.User_Projects>
+
+@{
+    ViewBag.Title = "User_Projects";
+    var requests = ViewBag.requests;
+    var myprojects= ViewBag.myprojects;
+}
+
+<h2>Home</h2>
+<hr />
+<hr />
+<div class="row" >
+
+    <p class="col-5" style=" margin-left:100px;">
+        @Html.ActionLink("Create New Project", "Create",null, new { @class = "btn btn-info" })
+    </p>
+    <p class="col-5" >
+        @Html.ActionLink("Your History", "History",null, new { @class = "btn btn-success" })
+    </p>
+    
+
+</div>
+
+<hr />
+<hr />
+
+<h2>Assigned Projects</h2>
+
+
+
+
+<table class="table table-striped table-bordered table-hover">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Projects.name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Projects.jobDescr )
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Projects.name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Projects.jobDescr)
+        </td>  
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.Projects.projectID }, new { @class = "btn btn-info" })
+        </td>
+            
+    </tr>
+}
+
+</table>
+<hr />
+<hr />
+
+<h2>Unassigned Projects</h2>
+
+<table class="table table-striped table-bordered table-hover">
+    <tr>
+        <th>
+            Project name
+        </th>
+        <th>
+            Project Description
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in myprojects)
+    {
+        <tr>
+            <td>
+                @item.Projects.name
+            </td>
+            <td>
+                @item.Projects.jobDescr
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Projects.projectID }, new { @class = "btn btn-info" }) ||
+                
+            
+               @Html.ActionLink("Remove", "Delete", new { id = item.id}
+       , new { onclick = "return confirm('Are you sure you want to delete project " + item.Projects.name + "?');",  @class = "btn btn-danger"  }) 
+            </td>
+        </tr>
+    }
+
+</table>
+<hr />
+<hr />
+
+<h2>Requests</h2>
+<table class="table table-striped table-bordered table-hover">
+    <tr>
+        <th>
+            Project name
+        </th>
+        <th>
+            Project Manager Name
+        </th>
+        <th></th>
+
+    </tr>
+
+    @foreach (var item in requests)
+    {
+        <tr>
+            <td>
+                @item.Projects.name
+            </td>
+
+            <td>              
+               @item.Users2.name
+            </td>
+
+            <td>
+                @Html.ActionLink("Accept", "RequestFromPM", new { accept = 1, requestid = item.requestID, projid = item.project_id , PMID = item.sender_id},new {@class = "btn btn-success" }) ||
+                @Html.ActionLink("Reject", "RequestFromPM", new { accept = 0, requestid = item.requestID, projid = item.project_id, PMID = item.sender_id }, new { @class = "btn btn-danger" })
+            </td>
+
+
+        </tr>
+    }
+
+</table>
+

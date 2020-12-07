@@ -1,0 +1,66 @@
+﻿@model ProjectsManagementSystem.Models.Request
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Request</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.isApproved)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.isApproved)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Request_Status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Request_Status)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Projects.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Projects.name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Users.user_password)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Users.user_password)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Users1.user_password)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Users1.user_password)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Users2.user_password)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Users2.user_password)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.requestID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

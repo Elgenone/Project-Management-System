@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PROJECT_MANAGEMENTModelStoreContainer" CdmEntityContainer="PROJECT_MANAGEMENTEntities1">
+    <EntitySetMapping Name="Feedback">
+      <EntityTypeMapping TypeName="PROJECT_MANAGEMENTModel.Feedback">
+        <MappingFragment StoreEntitySet="Feedback">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="feedbackMessage" ColumnName="feedbackMessage" />
+          <ScalarProperty Name="TL_id" ColumnName="TL_id" />
+          <ScalarProperty Name="PM_id" ColumnName="PM_id" />
+          <ScalarProperty Name="MessageIsRead" ColumnName="MessageIsRead" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Job_Title">
+      <EntityTypeMapping TypeName="PROJECT_MANAGEMENTModel.Job_Title">
+        <MappingFragment StoreEntitySet="Job_Title">
+          <ScalarProperty Name="jobID" ColumnName="jobID" />
+          <ScalarProperty Name="title" ColumnName="title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Projects">
+      <EntityTypeMapping TypeName="PROJECT_MANAGEMENTModel.Projects">
+        <MappingFragment StoreEntitySet="Projects">
+          <ScalarProperty Name="projectID" ColumnName="projectID" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="jobDescr" ColumnName="jobDescr" />
+          <ScalarProperty Name="assigned" ColumnName="assigned" />
+          <ScalarProperty Name="IsDelieverd" ColumnName="IsDelieverd" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="Deadline" ColumnName="Deadline" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Request">
+      <EntityTypeMapping TypeName="PROJECT_MANAGEMENTModel.Request">
+        <MappingFragment StoreEntitySet="Request">
+          <ScalarProperty Name="requestID" ColumnName="requestID" />
+          <ScalarProperty Name="sender_id" ColumnName="sender_id" />
+          <ScalarProperty Name="reciever_id" ColumnName="reciever_id" />
+          <ScalarProperty Name="concernedUserID" ColumnName="concernedUserID" />
+          <ScalarProperty Name="project_id" ColumnName="project_id" />
+          <ScalarProperty Name="isApproved" ColumnName="isApproved" />
+          <ScalarProperty Name="Request_Status" ColumnName="Request_Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User_Projects">
+      <EntityTypeMapping TypeName="PROJECT_MANAGEMENTModel.User_Projects">
+        <MappingFragment StoreEntitySet="User_Projects">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="project_id" ColumnName="project_id" />
+          <ScalarProperty Name="myUser_id" ColumnName="myUser_id" />
+          <ScalarProperty Name="rating" ColumnName="rating" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="PROJECT_MANAGEMENTModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="user_password" ColumnName="user_password" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="No_Of_Delievered_Projects" ColumnName="No_Of_Delievered_Projects" />
+          <ScalarProperty Name="Profits_For_Companies" ColumnName="Profits_For_Companies" />
+          <ScalarProperty Name="expeirenceYears" ColumnName="expeirenceYears" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="img" ColumnName="img" />
+          <ScalarProperty Name="job_Desc" ColumnName="job_Desc" />
+          <ScalarProperty Name="job_id" ColumnName="job_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

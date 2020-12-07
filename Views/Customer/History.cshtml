@@ -1,0 +1,36 @@
+﻿@model IEnumerable<ProjectsManagementSystem.Models.User_Projects>
+
+@{
+    ViewBag.Title = "History";
+}
+
+<h2>History</h2>
+
+<p>
+    @Html.ActionLink(" Your Projrcts ", "User_Projects" ,null ,new {@class="btn btn-success" })
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Projects.name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Users.name)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Projects.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Users.name)
+            </td>
+        </tr>
+    }
+
+</table>
